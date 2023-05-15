@@ -4,14 +4,15 @@
   },
   "github": {
     "release": true,
-    "releaseNotes": "git log --no-merges --pretty=format:\"* %s %h\" ${latestTag}...main"
+    "tokenRef": "RELEASE_IT_GITHUB_TOKEN"
   },
   "npm": {
     "publish": false
   },
   "plugins": {
     "@release-it/conventional-changelog": {
-      "preset": "conventionalcommits"
+      "preset": "conventionalcommits",
+      "infile": "CHANGELOG.md"
     }
   }
 }
