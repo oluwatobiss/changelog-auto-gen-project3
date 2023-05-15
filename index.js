@@ -1,7 +1,10 @@
-const userName = "Oluwatobi";
+const userFirstName = "Oluwatobi";
+const userlastName = "Sofela";
 
-function sayHello(name) {
-  console.log(`Hello, I'm ${name}. I really love programming.❤️`);
+function sayHello(firstName, lastName) {
+  console.log(
+    `Hello, I'm ${firstName} ${lastName}. I really love programming.❤️`
+  );
 }
 
-sayHello(userName);
+sayHello(userFirstName, userlastName);
