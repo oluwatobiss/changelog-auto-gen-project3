@@ -1,1 +1,7 @@
-console.log("Hello! I really love programming.❤️");
+const userName = "Oluwatobi";
+
+function sayHello(name) {
+  console.log(`Hello, I'm ${name}. I really love programming.❤️`);
+}
+
+sayHello(userName);
